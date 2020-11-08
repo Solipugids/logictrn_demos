@@ -6,7 +6,7 @@ LogicTRN is a quantitative framework developed to establish a mechanistic unders
 ### How to use
 1. clone the codes from github to local disk. 
 2. open the repo folder in Metlab. 
-3. directely RUN [the M file]((./logictrn_run_example.m)) `logictrn_run_example.m`
+3. directely RUN [the M file](logictrn_run_example.m) `logictrn_run_example.m`
 4. The example files in *data* folder will be read auntomaticlly and processed by the demo code. The results of logictrn will be exported in the *output* folder. 
   + The output file will be named by `example`-`current date`-`8-digits random code`. The example output have been placed in the *output* folder (`output_example.xls`). 
   + The files in *data* folder were extracted from GSE11923 for time-series gene expression data (`gene_expression.xlsx`) and GSE39860 for DNA occupancy data (`occupancy_data.xlsx`). 
