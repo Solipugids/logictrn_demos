@@ -6,11 +6,16 @@ LogicTRN is a quantitative framework developed to establish a mechanistic unders
 ### How to use
 1. clone the codes from github to local disk. 
 2. open the repo folder in Metlab. 
-3. directely RUN the M file `logictrn_run_example.m`
+3. directely RUN the M file `[logictrn_run_example.m](./logictrn_run_example.m)`
 4. The example files in *data* folder will be read auntomaticlly and processed by the demo code. The results of logictrn will be exported in the *output* folder. 
   + The output file will be named by `example`-`current date`-`8-digits random code`. The example output have been placed in the *output* folder (`output_example.xls`). 
   + The files in *data* folder were extracted from GSE11923 for time-series gene expression data (`gene_expression.xlsx`) and GSE39860 for DNA occupancy data (`occupancy_data.xlsx`). 
 5. If you want to RUN the code with your own data, please first organised the file according to the files in *data* folder. Then CHANGE the code file `logictrn_run_example.m`, change the file path in the code.
+
+### Citing
+Identifying Transcription Factor Combinations to Modulate Circadian Rhythms by Leveraging Virtual Knockouts on Transcription Networks, Debajyoti Chowdhury, Chao Wang, Aiping Lu, Hailong Zhu, *iScience*, 23 (9), 101490
+
+An integrative method to decode regulatory logics in gene transcription, Bin Yan, Daogang Guan, Chao Wang, Junwen Wang, Bing He, Jing Qin, Kenneth R Boheler, Aiping Lu, Ge Zhang, Hailong Zhu, *Nature communications*, 8 (1), 1-12
 
 ### Need helps
 If you need further helps or have any questions with this repo, please feel free to send email to the corresponding author the paper or submit to *issues*. 
